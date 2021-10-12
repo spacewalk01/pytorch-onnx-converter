@@ -1,6 +1,4 @@
-"# Deep-Lighting-Network-ONNX" 
-
-# TensorRT Implementation of OpenPose
+# Deep-Lighting-Network-ONNX
 
 ![demo](Example.JPG)
 

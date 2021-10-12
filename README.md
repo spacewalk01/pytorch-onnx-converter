@@ -5,7 +5,6 @@
 ![demo](Example.JPG)
 
 ## Requirements
-The following environment was set for the experiment but if you have a different Graphic Card, you need to download and install TensorRT / CUDA that matches your GPU version.
 - Windows 10
 - Visual Studio 2019
 - CUDA 11.1, Cudnn 8

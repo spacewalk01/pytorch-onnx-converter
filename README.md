@@ -38,4 +38,4 @@ python save_model.py --modelfile models/DLN_finetune_LOL.pth
 - Build and run the project
 
 ## Test Dataset
-Download the LOL dataset and put it to the project folder.
+Low-light dataset can be downloaded from here: [LOLdataset](https://daooshee.github.io/BMVC2018website/)

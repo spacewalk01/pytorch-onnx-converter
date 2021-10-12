@@ -2,7 +2,7 @@
 
 # Deep-Lighting-Network-ONNX
 
-ONNX runtime inference for Low-Light Enhancement in Windows C++ environment. This repo converts (deep lighting network)[https://github.com/WangLiwen1994/DLN] for low-light enhancement to ONNX model and perform runtime inference based on it. 
+ONNX runtime inference for Low-Light Enhancement in Windows C++ environment. This repo converts [deep lighting network](https://github.com/WangLiwen1994/DLN) for low-light enhancement to ONNX model and perform runtime inference based on it. 
 
 ## Requirements
 - Windows 10

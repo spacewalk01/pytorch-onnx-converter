@@ -1,8 +1,8 @@
+![demo](Example.JPG)
+
 # Deep-Lighting-Network-ONNX
 
 ONNX runtime inference for Low-Light Enhancement (DLN) in Windows C++ environment. 
- 
-![demo](Example.JPG)
 
 ## Requirements
 - Windows 10

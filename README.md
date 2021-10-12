@@ -11,13 +11,12 @@
 - OpenCV 4.5.1 with CUDA
 
 ## Installation
+
+### Step 1
 - Clone Deep-lighting Network and Install required libraries
 ``` 
 git clone https://github.com/WangLiwen1994/DLN 
 ```
-
-You can skip step 1 in case model.onnx is already in Project folder.
-### Step 1
 - Clone this project
 ```
 git clone https://github.com/spacewalk01/Deep-Lighting-Network-ONNX

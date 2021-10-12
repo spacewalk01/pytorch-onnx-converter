@@ -38,9 +38,10 @@ cv::Mat postprocess(std::vector<float> rawData, unsigned int width, unsigned int
         else if (rawData[i] < 0) rawData[i] = 0;
     }
 
-    cv::Mat1f r_channel = cv::Mat1f(height, width, rawData.data());
-    cv::Mat1f g_channel = cv::Mat1f(height, width, rawData.data() + height * width);
-    cv::Mat1f b_channel = cv::Mat1f(height, width, rawData.data() + 2 * height * width);
+    size_t numOfPixels = width * height;
+    cv::Mat1f r_channel = cv::Mat1f(height, width, &rawData[0]);
+    cv::Mat1f g_channel = cv::Mat1f(height, width, &rawData[numOfPixels]);
+    cv::Mat1f b_channel = cv::Mat1f(height, width, &rawData[2 * numOfPixels]);
 
     std::vector<cv::Mat> channels{ b_channel, g_channel, r_channel };
 

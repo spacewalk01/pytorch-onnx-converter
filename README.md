@@ -30,15 +30,8 @@ python save_model.py --modelfile models/DLN_finetune_LOL.pth
 ```
 ### Step 2
 - Open LightingNetwork.sln with Visual Studio 2019
-- 
-https://docs.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-in-visual-studio
-
-move save_model.py $DLN_dir/
-
-cd $DLN_dir
-python save_model.py --modelfile models/DLN_finetune_LOL.pth
 - Select x64 and Release 
 - Right-click on Project and Open to Manage NuGet Packages
-- Search onnxruntime-gpu and install it by clicking down-arrow.
+- Search ```onnxruntime-gpu``` and install it by clicking down-arrow.
 - Setup Opencv on Properties
 - Build and run the project

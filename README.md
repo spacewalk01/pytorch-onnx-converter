@@ -1,6 +1,6 @@
 # Deep-Lighting-Network-ONNX
 
-ONNX runtime inference engine for inferencing Low-Light Enhancement Model (DLN) in Windows C++ environment.
+ONNX runtime inference for Low-Light Enhancement (DLN) in Windows C++ environment. 
  
 ![demo](Example.JPG)
 

@@ -34,7 +34,7 @@ python save_model.py --modelfile models/DLN_finetune_LOL.pth
 - Select ```x64``` and ```Release``` for the configuration 
 - Right-click on Project and Open ```Manage NuGet Packages```
 - Search ```onnxruntime-gpu``` and install it by clicking ```down-arrow```
-- Setup Opencv on Properties
+- Setup OpenCV on Properties
 - Build and run the project
 
 ## Test Dataset

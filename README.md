@@ -36,3 +36,6 @@ python save_model.py --modelfile models/DLN_finetune_LOL.pth
 - Search ```onnxruntime-gpu``` and install it by clicking ```down-arrow```.
 - Setup Opencv on Properties
 - Build and run the project
+
+## Test Dataset
+Download the LOL dataset and put it to the project folder.

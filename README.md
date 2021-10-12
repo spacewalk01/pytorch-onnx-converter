@@ -13,7 +13,7 @@
 ## Installation
 
 ### Step 1
-- Clone Deep-lighting Network and Install required libraries
+- Clone Deep-lighting Network and Install the required libraries
 ``` 
 git clone https://github.com/WangLiwen1994/DLN 
 ```

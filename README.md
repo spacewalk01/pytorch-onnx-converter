@@ -19,7 +19,7 @@ ONNX runtime inference for Low-Light Enhancement (DLN) in Windows C++ environmen
 ``` 
 git clone https://github.com/WangLiwen1994/DLN 
 ```
-- Clone this project
+- Clone this repo
 ```
 git clone https://github.com/spacewalk01/Deep-Lighting-Network-ONNX
 ```

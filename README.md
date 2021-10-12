@@ -1,7 +1,7 @@
 "# Deep-Lighting-Network-ONNX" 
 
 
-![alt text](Result.png)
+![alt text](Example.JPG)
 
 
 git clone https://github.com/WangLiwen1994/DLN

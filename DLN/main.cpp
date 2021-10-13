@@ -20,7 +20,9 @@ void loadONNX(std::wstring model_name)
 {
     const wchar_t* model_path = model_name.c_str();
 
-    Ort::SessionOptions session_options{ nullptr };
+    Ort::SessionOptions session_options;
+    Ort::ThrowOnError(OrtSessionOptionsAppendExecutionProvider_CUDA(session_options, 0));
+    
     auto envLocal = std::make_unique<Ort::Env>(ORT_LOGGING_LEVEL_WARNING, "Low-light enhancement");
     onnx_env = std::move(envLocal);
     auto sessionLocal = std::make_unique<Ort::Session>(*onnx_env, model_path, session_options);
@@ -112,5 +114,7 @@ int main()
     cv::imshow("Result", output);
     cv::waitKey(0);
 
+    onnx_session->release();
+    
     return 0;
 }

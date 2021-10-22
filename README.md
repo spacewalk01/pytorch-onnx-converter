@@ -39,3 +39,5 @@ python save_model.py --modelfile models/DLN_finetune_LOL.pth
 
 ## Test Dataset
 Low-light dataset can be downloaded from [here](https://daooshee.github.io/BMVC2018website/).
+## Reference
+DLN (Lighting Network for Low-Light Image Enhancement): https://github.com/WangLiwen1994/DLN
